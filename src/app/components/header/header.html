@@ -1,7 +1,22 @@
-<header id="header" class="text-center py-12 bg-white">
-  <img src="/assets/botbite-logo.png" alt="BotBite logo"  class="mx-auto mb-6"/>
-  <h1 class="text-4xl font-bold mb-2">
+<header id="header" class="text-center py-16 px-6 bg-white border-b border-black/5">
+  <img
+    src="/assets/botbite-logo.png"
+    alt="BotBite logo"
+    class="mx-auto mb-6 w-24 h-24 scale-in float"
+  />
+  <h1 class="text-4xl md:text-5xl font-extrabold mb-4 slide-up delay-200 text-neutral-900">
     El mesero digital que habla por WhatsApp
   </h1>
-  <p class="text-lg text-gray-600">Atención inteligente para restaurantes.</p>
+
+  <p class="text-lg md:text-xl text-neutral-600 mb-8 slide-up delay-300">
+    Atención inteligente para restaurantes.
+  </p>
+  <div class="flex justify-center slide-up delay-400">
+    <button
+      (click)="scrollToContact()"
+      class="px-8 py-3 bg-black text-white font-semibold rounded-lg shadow-md hover:bg-black/90 hover:shadow-lg transform hover:scale-105 transition-all duration-300"
+    >
+      Solicitar Demo
+    </button>
+  </div>
 </header>
